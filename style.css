@@ -25,45 +25,25 @@ h2 {
     padding-left: 25px;
 }
 
-.dev-links {
-    padding-left: 65px;
-  }
-  
-  .dev-links ul {
-    list-style: none;
-  }
-  
-  .dev-links li {
-    margin-bottom: 10px;
-  }
-  
-  .dev-links a {
-    text-decoration: none;
-    color: #33aab7;
-  }
-
-  .dev-links {
-    float: left;
-    width: 20%;
-  }
-  
+  .content {
+    color: rgb(13, 227, 255);
+}
 
 .rotat {
-    width: 100%;
+    width: 170vh;
     height: 21vh;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     perspective: 1000px; 
-    justify-content:end;
-    margin: -200px;
+    margin: -300px;
   }
   
   .rotating-image {
     aspect-ratio: 3.5 / 2;
     width: 1050; 
     height: 300px; 
-    animation: rotate 10s linear infinite;
+    animation: rotate 4s linear infinite;
     transform-style: preserve-3d;
   }
   
@@ -77,25 +57,27 @@ h2 {
   }
 
 
-.content {
-    color: rgb(13, 227, 255);
-}
-  
-  .personal-links {
-    float: left;
-    width: 20%;
-    margin-left: 110px;
-  }
-   
-  .personal-links a {
+  .personal-links a, .dev-links a {
     text-decoration: none;
     color: #33aab7;
   }
 
-  .personal-links li {
-    margin-bottom: 10px;
+  .personal-links li, .dev-links li {
+    margin-bottom: 8px;
   }
   
   .dev-links a:hover, .personal-links a:hover {
     color: #23527c;
+  }
+
+  .links {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+  }
+
+  .dev-links {
+    padding-left: 60px;
   }
